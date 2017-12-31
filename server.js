@@ -31,9 +31,11 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/newdb");
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/newdb");
+// var db = mongoose.connection;
+var URI = process.env.MONGODB_URI || 'mongodb://localhost/newdb';
+mongoose.connect(URI);
 var db = mongoose.connection;
-
 // Show any mongoose errors
 db.on("error", function(error) {
   console.log("Mongoose Error: ", error);
