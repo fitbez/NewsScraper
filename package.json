@@ -1,21 +1,21 @@
 {
   "name": "newsscrape",
   "version": "1.0.0",
-  "description": "Week 18 Homework Assignment",
+  "description": "NewsScrape",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sambo68/NewsScrape.git"
+    "url": "git+https://github.com/fitbez/NewsScrape.git"
   },
-  "author": "Sam Amireh",
+  "author": "Fitsum",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sambo68/NewsScrape/issues"
+    "url": "https://github.com/fitbez/NewsScrape/issues"
   },
-  "homepage": "https://github.com/Sambo68/NewsScrape#readme",
+  "homepage": "https://github.com/fitbez/NewsScrape#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
